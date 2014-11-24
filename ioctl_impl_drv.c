@@ -101,7 +101,7 @@ static int __attach(dev_info_t *dip, ddi_attach_cmd_t cmd) {
                 return(DDI_FAILURE);
             }
             else {
-                cmn_err(CE_NOTE, "******************** Attach successful!!!! ***************");
+                cmn_err(CE_NOTE, "******************** Attach Accomplished!!!! ***************");
                 return (DDI_SUCCESS);
             }
         default:
